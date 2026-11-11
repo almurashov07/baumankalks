@@ -1,0 +1,1 @@
+window.BAUMAN_SEED={"subjects":{},"schedule":{},"initialTasks":[],"initialScores":[],"initialExams":[]};
