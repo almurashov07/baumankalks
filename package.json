@@ -1,0 +1,22 @@
+{
+  "name": "moya-baumanka",
+  "version": "4.0.0-alpha.2",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build && node scripts/cache.mjs",
+    "preview": "vite preview",
+    "test": "node tests/smoke.test.cjs && node tests/nav.test.cjs && node tests/assessments.test.cjs"
+  },
+  "dependencies": {
+    "react": "19.1.1",
+    "react-dom": "19.1.1"
+  },
+  "devDependencies": {
+    "@types/react": "19.1.12",
+    "@types/react-dom": "19.1.9",
+    "typescript": "5.9.2",
+    "vite": "6.3.6"
+  }
+}
